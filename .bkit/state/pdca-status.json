@@ -1,0 +1,191 @@
+{
+  "version": "3.0",
+  "lastUpdated": "2026-04-25T23:02:41.782Z",
+  "activeFeatures": [
+    "blog_bot",
+    "Desktop"
+  ],
+  "primaryFeature": "blog_bot",
+  "features": {
+    "blog_bot": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-23T02:15:09.583Z",
+        "lastUpdated": "2026-04-25T23:02:41.782Z"
+      },
+      "lastFile": "c:\\claude\\blog_bot\\generator.py"
+    },
+    "Desktop": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-23T03:18:57.461Z",
+        "lastUpdated": "2026-04-23T03:18:57.461Z"
+      },
+      "lastFile": "C:\\Users\\attai\\Desktop\\블로그_자동생성.bat"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-04-23T02:03:36.225Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-04-25T23:02:41.782Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-04-23T02:15:09.583Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:19:42.461Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:20:56.139Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:36:21.474Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:42:09.052Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:43:19.303Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:43:24.424Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:43:50.479Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:44:34.765Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:48:04.808Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:54:51.886Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:55:47.535Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T02:55:51.776Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T03:02:24.816Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T03:02:33.845Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T03:06:40.604Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T03:10:13.634Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-23T03:18:57.461Z",
+      "feature": "Desktop",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-25T22:42:22.033Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-25T23:02:36.295Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-25T23:02:41.782Z",
+      "feature": "blog_bot",
+      "phase": "do",
+      "action": "updated"
+    }
+  ],
+  "stateMachine": {
+    "defaultWorkflow": "default",
+    "activeWorkflows": {},
+    "totalTransitions": 0
+  },
+  "automation": {
+    "globalLevel": 2,
+    "trustScore": 40,
+    "pendingApprovals": 0,
+    "lastGateResult": null
+  },
+  "team": {
+    "enabled": true,
+    "stateFile": ".bkit/runtime/agent-state.json",
+    "eventsFile": ".bkit/runtime/agent-events.jsonl"
+  }
+}

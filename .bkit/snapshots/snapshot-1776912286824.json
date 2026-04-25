@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-04-23T02:44:46.819Z",
+  "reason": "compaction",
+  "status": {
+    "version": "3.0",
+    "lastUpdated": "2026-04-23T02:44:34.765Z",
+    "activeFeatures": [
+      "blog_bot"
+    ],
+    "primaryFeature": "blog_bot",
+    "features": {
+      "blog_bot": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-23T02:15:09.583Z",
+          "lastUpdated": "2026-04-23T02:44:34.765Z"
+        },
+        "lastFile": "c:\\claude\\blog_bot\\generator.py"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-04-23T02:03:36.225Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-04-23T02:44:34.765Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-04-23T02:15:09.583Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:19:42.461Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:20:56.139Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:36:21.474Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:42:09.052Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:43:19.303Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:43:24.424Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:43:50.479Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-23T02:44:34.765Z",
+        "feature": "blog_bot",
+        "phase": "do",
+        "action": "updated"
+      }
+    ],
+    "stateMachine": {
+      "defaultWorkflow": "default",
+      "activeWorkflows": {},
+      "totalTransitions": 0
+    },
+    "automation": {
+      "globalLevel": 2,
+      "trustScore": 40,
+      "pendingApprovals": 0,
+      "lastGateResult": null
+    },
+    "team": {
+      "enabled": true,
+      "stateFile": ".bkit/runtime/agent-state.json",
+      "eventsFile": ".bkit/runtime/agent-events.jsonl"
+    }
+  }
+}
